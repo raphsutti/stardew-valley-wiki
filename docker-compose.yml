@@ -1,17 +1,17 @@
 version: '3.7'
 
 services:
-  graphql:
-    build:
-      context: ./graphql
-    ports:
-      - 3000:3000
-    container_name: graphql
-    environment:
-      PORT: 3000
-    volumes:
-      - ./graphql:/workdir
-      - ./graphql/node_modules:/workdir/node_modules
+#  graphql:
+#    build:
+#      context: ./graphql-api
+#    ports:
+#      - 3000:3000
+#    container_name: graphql-api
+#    environment:
+#      PORT: 3000
+#    volumes:
+#      - ./graphql:/workdir
+#      - ./graphql/node_modules:/workdir/node_modules
 
   stardew-valley-api:
     build:
