@@ -13,7 +13,7 @@ services:
       - ./graphql:/workdir
       - ./graphql/node_modules:/workdir/node_modules
 
-  digimon-api:
+  stardew-valley-api:
     build:
       context: stardew-valley-api
     ports:
@@ -22,5 +22,5 @@ services:
     environment:
       PORT: 3001
     volumes:
-      - ./digimon-api:/workdir
-      - ./digimon-api/node_modules:/workdir/node_modules
+      - ./stardew-valley-api:/workdir
+      - ./stardew-valley-api/node_modules:/workdir/node_modules
