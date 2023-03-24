@@ -32,7 +32,8 @@
     "chance": "^1.1.8",
     "pino-pretty": "^9.0.0",
     "skuba": "5.1.1",
-    "supertest": "^6.1.6"
+    "supertest": "^6.1.6",
+    "tsconfig-seek": "^1.0.2"
   },
   "engines": {
     "node": ">=18"
