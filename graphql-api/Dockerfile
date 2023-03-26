@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:18-alpine
 
 WORKDIR /workdir
 
@@ -8,7 +8,7 @@ RUN yarn install --frozen-lockfile --ignore-optional --non-interactive
 
 COPY . /workdir
 
-RUN yarn build
+# RUN yarn build
 
 ENV NODE_OPTIONS=--enable-source-maps
 

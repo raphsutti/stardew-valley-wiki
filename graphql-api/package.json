@@ -11,6 +11,6 @@
   "type": "module",
   "scripts": {
     "compile": "tsc",
-    "start": "pnpm run compile && node ./dist/index.js"
+    "start": "npm run compile && node ./dist/index.js"
   }
 }
